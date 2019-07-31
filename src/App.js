@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import LogEntry from './log-entry/LogEntry.js';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>
           Hello Coffee!
         </p>
+        <LogEntry/>
       </header>
     </div>
   );
